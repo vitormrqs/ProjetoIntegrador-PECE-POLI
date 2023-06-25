@@ -41,6 +41,7 @@ Após inserido os dados na camada raw e feito os tratamentos iniciais como a rev
 2. Validade
 3. Integridade
 4. Exclusividade
+
 os dados são validados através do script `validacao\gluejobs_validacoes.py`.
 
 Finalmente, são avaliados e filtrados para serem disponibilizados na camada delivery. Nessa etapa, é criada a tabela fato e suas dimenões como será explicada no capítulo a seguir. Os dados são construídos através do script `ETL\gluejobs_delivery.py`.
