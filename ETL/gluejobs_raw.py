@@ -13,9 +13,9 @@ import numpy as np
 print('Iniciando objeto boto.')
 s3 = boto3.client(
     's3',
-    aws_access_key_id='ASIAYXVOXBPPI7IM4W2Z',
-    aws_secret_access_key='z/PK/ikgdp+cE28+dHepAOW3LxQT0jTHiys5slFh',
-    aws_session_token = 'FwoGZXIvYXdzEEAaDMvR4ts/g/VNs0Xe5CK+AV/04RtgfY8OKlNx8WKQ/EZx4nFwlDMKAWI2QDZr0CQy5sFgi+Hifej9WYEWl0TNJOGSVZT4QqaoKmcId3KAF4iJHN3NalzS/7l08LVnutPEvTKpjm5pkGXxyJepKZLW7bLYgGlTnx0Md7nXv2FOLZGOQk9CZpLaW/n5seCWdAS/FKsxZOtTQzBFg8NQPciBdzzH9zPGo5ukXxt2hA88cd4IgiUy1xmdr10EV3+rEvzZU98ElLfS0vRA/aNI4HMo/smmogYyLeuSIpRfdsrPjwpJG5dlVf96mCIywwrbFPu9aWypO9YPLWEyyCk/YHZcpIESKQ=='
+    aws_access_key_id='****',
+    aws_secret_access_key='****',
+    aws_session_token = '****'
 )
 
 # Set the source and destination bucket names and prefixes
